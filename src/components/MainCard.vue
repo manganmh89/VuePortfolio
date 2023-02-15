@@ -13,7 +13,6 @@
           <div class="link">
             <img src="../assets/images/linkedin.png" alt="linkedin"/>
           </div>
-  
         </a>
       </div>
     </div>

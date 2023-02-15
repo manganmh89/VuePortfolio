@@ -19,8 +19,10 @@ export default {
 </script>
 
 <style>
-/* <style lang="postcss"> 
-@tailwind base;
-@tailwind components;
-@tailwind utilities; */
+#app {
+  font-family: Archivo, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  color: #2c3e50;
+}
 </style>
