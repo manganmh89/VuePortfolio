@@ -7,7 +7,7 @@
       space-y-6
       px-2
       py-4
-      absolute
+      relative
       inset-y-0
       left-0
       md:relative
