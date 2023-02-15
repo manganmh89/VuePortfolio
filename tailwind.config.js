@@ -4,10 +4,12 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      "primary": "#FAE6B1",
-      "secondary": "#B3DEE5",
-      "accent": "#FFA101",
-      "background": "#31525B",
+      'pale' : '#FAE6B1',
+      'liteblue' : '#B3DEE5',
+      'golden' : '#FFA101',
+      "highlight" : '#2dd4bf',
+      'darkgray' : '#31525B',
+
     },
     fontFamily: {
       Archivo: ["Archivo, sans-serif"],
