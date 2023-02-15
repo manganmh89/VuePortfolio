@@ -1,5 +1,8 @@
 <template>
-  <MainCard/>
+  <div>
+    <NavBar />
+    <MainCard/>
+  </div>
 </template>
 
 <script>
@@ -21,4 +24,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
