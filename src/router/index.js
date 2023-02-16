@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import MainCard from './../components/MainCard.vue';
 import ExperienceCard from './../components/ExperienceCard.vue';
 import ProjectsCard from './../components/ProjectsCard.vue';
-import ContactsCard from './../components/ContactsCard.vue';
+import ContactCard from './../components/ContactCard.vue';
 
 
 

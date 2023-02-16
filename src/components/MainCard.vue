@@ -13,8 +13,8 @@
           <div class="link">
             <img src="../assets/images/linkedin.png" alt="linkedin"/>
           </div>
-          <div class="logos">
           <h2>Technologies Studied</h2>
+          <div class="logos">
             <img src="https://www.svgrepo.com/show/473654/html5.svg" alt="">
             <img src="https://www.svgrepo.com/show/473577/css3.svg" alt="">
             <img src="https://www.svgrepo.com/show/310932/javascript.svg" alt="">
@@ -52,6 +52,7 @@
   }
   
   .profile {
+    display: flex;
     align-content: center;
     justify-content: center;
   }
@@ -81,4 +82,12 @@
       overflow-y: hidden;
       overflow-x: hidden;
   }
+  .logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 70px;
+    max-width: 70px;
+}
+
   </style>
