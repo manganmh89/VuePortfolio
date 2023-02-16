@@ -28,22 +28,22 @@ import ContactCard from './../views/ContactCard.vue';
 const routes = [
         {
             path: '/',
-            name: 'HomeCard',
+            name: 'home',
             component: MainCard
         },
         {
             path: '/experience',
-            name: 'ExperienceCard',
+            name: 'experience',
             component: ExperienceCard
         },
         {
             path: '/projects',
-            name: 'ProjectsCard',
+            name: 'projects',
             component: ProjectsCard
         },
         {
             path: '/contact',
-            name: 'ContactCard',
+            name: 'contact',
             component: ContactCard
         },
     ]

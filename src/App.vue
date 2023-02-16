@@ -2,7 +2,6 @@
   <div class="app">
     <!--NavBar-->
     <NavBar />
-
     <!--Content-->
     <router-view />
   </div>
@@ -15,6 +14,7 @@ export default {
   name: 'App',
   components: {NavBar},
 }
+
 </script>
 
 <style>
