@@ -1,30 +1,20 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link>
-    <router-link to="/experience">Experience</router-link>
-    <router-link to="/projects">Projects</router-link>
-    <router-link to="/contact">Contact</router-link>
-  </nav>
-  <router-view/>
+  <div class="app">
+    <!--NavBar-->
+    <NavBar />
+
+    <!--Content-->
+    <router-view />
+  </div>
 </template>
 
 <script>
-import NavBar from "./components/NavBar.vue"
-import MainCard from "./components/MainCard.vue"
-import ExperienceCard from "./components/ExperienceCard.vue"
-import ProjectsCard from "./components/ProjectsCard.vue"
-import ContactCard from "./components/ContactCard.vue"
+import NavBar from './components/NavBar.vue';
+
 export default {
   name: 'App',
-  components: {
-    NavBar,
-    MainCard,
-    ExperienceCard,
-    ProjectsCard, 
-    ContactCard,
-  }
+  components: {NavBar},
 }
-
 </script>
 
 <style>
@@ -35,3 +25,35 @@ export default {
   color: #2c3e50;
 }
 </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--OLD CODE BELOW-->
+
+<!-- <button @click="showNavBar">SVG HAMBURG</button> -->
+<!-- <router-link to="/">Home</router-link>
+  <router-link :to="{ name: 'ExperienceCard' }">Experience</router-link>
+  <router-link :to="{ name: 'ProjectsCard' }">Projects</router-link>
+  <router-link :to="{ name: 'ContactCard' }">Contact</router-link> -->
+
+<!-- <script>
+  import NavBar from "./components/NavBar.vue"
+  // import MainCard from "./views/MainCard.vue"
+  // import ExperienceCard from "./views/ExperienceCard.vue"
+  // import ProjectsCard from "./views/ProjectsCard.vue"
+  // import ContactCard from "./views/ContactCard.vue"
+  
+  </script> -->

@@ -63,18 +63,7 @@
   </template>
   
   <script setup>
-//   import { ref } from "vue";
-//   export default {
-//       setup() {
-//           const showNavBar = ref(false)
-
-//           return {
-//               showNavBar, 
-//           };
-//       },
-//   };
-
-    import { ref } from 'vue';
+import { ref } from 'vue';
         const is_open = ref(false)
         const showNavBar = () => {
           is_open.value = !is_open.value

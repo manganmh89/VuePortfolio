@@ -37,7 +37,8 @@
 
   <script>
   export default {
-  
+    name: 'HomeCard',
+    components: {},
   }
   </script>
   
