@@ -49,7 +49,7 @@
           </a>
       </nav>
   </div>
-      <div class="flex-1">
+      <div class="flex-1 h-70">
           <div class="bg-pale shadow px-2 py-4">
               <button @click="showNavBar">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
@@ -57,13 +57,13 @@
                   </svg>
               </button>
           </div>
-          <div class="bg-liteblue p-8 text-dark">Content</div>
       </div>
   </div>
   </template>
   
   <script setup>
-import { ref } from 'vue';
+
+    import { ref } from 'vue';
         const is_open = ref(false)
         const showNavBar = () => {
           is_open.value = !is_open.value
