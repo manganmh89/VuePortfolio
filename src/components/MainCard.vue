@@ -13,6 +13,23 @@
           <div class="link">
             <img src="../assets/images/linkedin.png" alt="linkedin"/>
           </div>
+          <div class="logos">
+          <h2>Technologies Studied</h2>
+            <img src="https://www.svgrepo.com/show/473654/html5.svg" alt="">
+            <img src="https://www.svgrepo.com/show/473577/css3.svg" alt="">
+            <img src="https://www.svgrepo.com/show/310932/javascript.svg" alt="">
+            <img src="https://www.svgrepo.com/show/439173/git.svg" alt="">
+            <img src="https://www.svgrepo.com/show/426053/git.svg" alt="">
+            <img src="https://www.svgrepo.com/show/349404/heroku.svg" alt="">
+            <img src="https://www.svgrepo.com/show/306463/netlify.svg" alt="">
+            <img src="https://www.svgrepo.com/show/330398/express.svg" alt="">
+            <img src="https://www.svgrepo.com/show/473729/mongodb.svg" alt="">
+            <img src="https://www.svgrepo.com/show/424896/react-logo-programming-2.svg" alt="">
+            <img src="https://www.svgrepo.com/show/377688/text-x-python.svg" alt="">
+            <img src="https://www.svgrepo.com/show/353657/django-icon.svg" alt="">
+            <img src="https://www.svgrepo.com/show/331300/aws.svg" alt="">
+            <img src="https://www.svgrepo.com/show/369644/vue.svg" alt="">
+          </div>
         </a>
       </div>
     </div>

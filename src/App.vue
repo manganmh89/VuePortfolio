@@ -1,8 +1,11 @@
 <template>
-  <div>
-    <NavBar />
-    <MainCard/>
-  </div>
+  <nav>
+    <router-link to="/">Home</router-link>
+    <router-link to="/experience">Experience</router-link>
+    <router-link to="/projects">Projects</router-link>
+    <router-link to="/contact">Contacts</router-link>
+  </nav>
+  <router-view/>
 </template>
 
 <script>
