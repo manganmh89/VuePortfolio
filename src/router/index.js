@@ -25,7 +25,7 @@ const routes = [
         {
             path: '/contact',
             name: 'contact',
-            component: ContactsCard
+            component: ContactCard
         }
     ]
 

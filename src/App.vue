@@ -23,8 +23,8 @@ export default {
     ProjectsCard, 
     ContactCard,
   }
-
 }
+
 </script>
 
 <style>
