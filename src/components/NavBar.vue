@@ -5,7 +5,7 @@
       bg-pale
       text-darkblue
       w-75
-      space-y-6
+      space-x-4
       px-2
       py-4
       absolute

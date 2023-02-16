@@ -9,10 +9,11 @@
 
 <script>
 import NavBar from './components/NavBar.vue';
-
+// import EmailForm from './components/EmailForm.vue';
 export default {
   name: 'App',
-  components: {NavBar},
+  components:
+    {NavBar},
 }
 
 </script>
@@ -23,6 +24,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   text-align: center;
   color: #2c3e50;
+}
+
+body {
+  margin: 0;
 }
 </style>
 
