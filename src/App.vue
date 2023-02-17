@@ -1,5 +1,5 @@
 <template>
-  <div class="app">
+  <div>
     <!--NavBar-->
     <NavBar />
     <!--Content-->
@@ -24,10 +24,12 @@ export default {
   -webkit-font-smoothing: antialiased;
   text-align: center;
   color: #2c3e50;
+  height: 100vh;
 }
 
 body {
   margin: 0;
+  min-height: 100vh;
 }
 </style>
 

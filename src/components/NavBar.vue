@@ -5,24 +5,15 @@
       bg-pale
       text-darkblue
       w-75
-      space-x-4
-      px-2
-      py-4
-      inset-y-0
-      left-0
+      justify-evenly
       transition
       duration-200
       ease-in-out
       "
       :class="`${is_open ? 'hidden absolute -translate-x-0' : ''}`"
   >
-  <div class="hidden relative -translate-x-0 max-w-0"></div>
-  <!-- <a href="" class="flex items-center space-x-2 px-4">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
-        </svg><span class="text-darkblue text-2xl font-extrabold">Mickey Mangan</span>
-    </a> -->
-    <nav class="flex items-center justify-items-center">
+  <div class="hidden relative  -translate-x-0 max-w-0"></div>
+    <nav class="flex items-center justify-evenly">
           <a href="/experience" class="group flex justify-center space-x-2 px-4 hover:bg-highlight rounded hover:text-pale transition duration-200">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
@@ -46,15 +37,19 @@
       </nav>
   </div>
       <div class="flex-1">
-          <div class="flex space-x-4 justify-start bg-pale shadow px-2 py-4">
+          <div class="flex space-x-4 justify-between bg-pale shadow px-2 py-4">
               <button @click="showNavBar">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                   </svg>
               </button>
+              <div class="flex space-x-4 bg-pale shadow px-2 py-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
+                  </svg><span class="text-darkblue text-2xl font-extrabold">Mickey Mangan</span>
+              </div>
           </div>
       </div>
-  <!-- </div> -->
   </template>
   
   <script setup>
