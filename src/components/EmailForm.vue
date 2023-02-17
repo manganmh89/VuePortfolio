@@ -1,5 +1,5 @@
 <template>
-    <form class="space-y-4" @submit.prevent="submitForm">
+    <form class="px-4 my-32 max-w-3xl mx-auto space-y-6" @submit.prevent="submitForm">
       <div>
         <label class="block font-medium text-darkblue">Full Name:</label>
         <input v-model.trim="name" type="text" class="form-input w-full" required>

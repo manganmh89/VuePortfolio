@@ -87,8 +87,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    max-height: 70px;
-    max-width: 70px;
+    max-height: 25px;
+    max-width: 25px;
 }
 
   </style>
